@@ -1,6 +1,6 @@
 # Music Library Manager
 
-A simple automation tool to extract and synchronize MP3 metadata into an Excel spreadsheet.
+A simple automation workflow to populate and visualize an MP3 music library.
 
 ## Overview
 This script scans your music folders for `.mp3` files, extracts the **Artist**, **Album**, and **Title** tags using `exiftool`, and updates an existing `.xlsx` file while preserving your formatting and AutoFilters in LibreOffice.
@@ -11,3 +11,4 @@ This script scans your music folders for `.mp3` files, extracts the **Artist**, 
 * **Python Libraries**: 
   ```bash
   pip install pandas openpyxl
+  pip install exiftool
